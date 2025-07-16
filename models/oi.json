@@ -4,13 +4,10 @@
     "author": "dwitt",
     "website": "https://github.com/dwitt",
     "model": "https://raw.githubusercontent.com/DahliaWitt/esp_customwakeword/refs/heads/main/models/oi.tflite",
-    "version": 2,
+    "version": 1,
     "trained_languages": ["en"],
     "micro": {
-      "probability_cutoff": 0.68,
-      "sliding_window_size": 4,
-      "feature_step_size": 10,
-      "tensor_arena_size": 22860,
-      "minimum_esphome_version": "2024.7.0"
+      "probability_cutoff": 0.5,
+      "sliding_window_average_size": 10
     }
   }
