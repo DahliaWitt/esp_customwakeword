@@ -3,7 +3,7 @@
     "wake_word": "Oy Cunt",
     "author": "dwitt",
     "website": "https://github.com/dwitt",
-    "model": "https://raw.githubusercontent.com/DahliaWitt/esp_customwakeword/refs/heads/main/models/oi.tflite",
+    "model": "https://raw.githubusercontent.com/DahliaWitt/esp_customwakeword/refs/heads/main/models/oy.tflite",
     "version": 2,
     "trained_languages": ["en"],
     "micro": {
